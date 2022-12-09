@@ -1,0 +1,9 @@
+.sidebar {
+    background-color: var(--clr-bg-dark);
+    height: 100%;
+}
+
+.sidebar-title {
+    margin: 1rem;
+    text-align: center;
+}
