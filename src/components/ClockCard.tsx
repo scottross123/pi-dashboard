@@ -1,5 +1,5 @@
 import { signal } from "@preact/signals";
-import useClock from "../hook/useClock";
+import useClock from "../hooks/useClock";
 import Card from "./Card";
 
 const ClockCard = () => {

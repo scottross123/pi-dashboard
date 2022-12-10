@@ -1,7 +1,7 @@
 .card {
     display: grid;
     grid-template-rows: max-content 200px 1fr;
-    background-color: var(--clr-bg-dark);
+    background-color: var(--clr-bg);
     border-radius: 25px;
     padding: 2rem;
     row-gap: .5rem;

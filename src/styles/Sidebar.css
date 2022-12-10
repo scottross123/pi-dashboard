@@ -1,5 +1,5 @@
 .sidebar {
-    background-color: var(--clr-bg-dark);
+    background-color: var(--clr-bg);
     height: 100%;
 }
 
@@ -15,11 +15,12 @@ ul {
 
 .sidebar-item {
     margin-top: .5rem;
+    margin-left: 2.5rem;
     padding: 1rem;
 }
 
 .sidebar-item:hover {
-    background-color: var(--clr-bg);
+    background-color: var(--clr-bg-dark);
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
 }
