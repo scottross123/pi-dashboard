@@ -6,4 +6,20 @@
 .sidebar-title {
     margin: 1rem;
     text-align: center;
+    color: var(--clr-contrast);
+}
+
+ul {
+    list-style: none;
+}
+
+.sidebar-item {
+    margin-top: .5rem;
+    padding: 1rem;
+}
+
+.sidebar-item:hover {
+    background-color: var(--clr-bg);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
