@@ -4,13 +4,17 @@ const express = require("express");
 const app = express();
 const port = 3000;
 
-const routes = require("./routes");
+const cpuRoutes = require("./routes/cpuRoutes");
+const sysRoutes = require("./routes/sysRoutes");
 
 app.get("/", function (req: Request, res: Response) {
-  res.send("Hello World!");
+  res.send("Systems Info API version 1.0.0");
 });
 
-app.use("/", routes);
+console.log(cpuRoutes);
+
+app.use("/cpu", cpuRoutes);
+app.use("/sys", sysRoutes);
 
 app.listen(port, function () {
   console.log(`Systems Info API running on port ${port}!`);
