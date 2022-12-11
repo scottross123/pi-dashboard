@@ -3,7 +3,7 @@ const {
     bios,
 } = require("systeminformation");
 
-exports.getSys = async () => {
+const getSys = async () => {
     try {
         const data = await system();
         console.log(data);
@@ -14,7 +14,7 @@ exports.getSys = async () => {
     }
 }
 
-exports.getBios = async () => {
+const getBios = async () => {
     try {
         const data = await bios();
         return data;
@@ -22,4 +22,9 @@ exports.getBios = async () => {
         console.log(e);
         return e;
     }
+}
+
+module.exports = {
+    getSys,
+    getBios,
 }
