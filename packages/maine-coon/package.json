@@ -1,0 +1,31 @@
+{
+  "name": "@pi-dashboard/maine-coon",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@preact/signals": "^1.1.2",
+    "preact": "^10.11.2"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.4.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3"
+  },
+  "description": "Preact dashboard frontend",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottross123/pi-dashboard.git"
+  },
+  "author": "scottross1232",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottross123/pi-dashboard/issues"
+  },
+  "homepage": "https://github.com/scottross123/pi-dashboard#readme"
+}

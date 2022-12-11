@@ -1,21 +1,21 @@
 {
-  "name": "pi-dashboard",
-  "private": true,
+  "name": "@pi-dashboard/british-shorthair",
   "version": "1.0.0",
-  "workspaces": [
-    "packages/british-shorthair",
-    "packages/maine-coon"
-  ],
+  "description": "Systems info API",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "scottross123",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/scottross123/pi-dashboard.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/scottross123/pi-dashboard/issues"
   },
