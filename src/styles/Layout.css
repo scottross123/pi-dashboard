@@ -1,5 +1,0 @@
-.layout-container {
-    display: grid;
-    grid-template-columns: minmax(150px, 20%) 1fr;
-    min-height: 100vh;
-}
